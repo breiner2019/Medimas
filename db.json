@@ -1,0 +1,107 @@
+{
+    "Usuarios":[
+        {
+            "id": 11803233,
+            "Nombre": "Oscar Mosquera",
+            "Edad": 44,
+            "Telefono": 3135111098,
+            "Direccion": "calle 300 b/ santodomingo",
+            "Acudiente":
+                {
+                    "id":1028041790,
+                    "Nombre":"Breiner Mosquera",
+                    "Telefono":3207617977,
+                    "Correo":"elbreym13@gmail.com"
+                },
+            "HistoriaClinica":{
+                
+                "Patologias":
+                    {
+                        "Nombre":"Hipertension",
+                        "Descripcion":"Se considera que la persona presenta hipertensión cuando su tensión arterial es demasiado elevada"
+                    },
+                "Medicamentos-Alegicos":{
+                    "Nombre":"Penicilina",
+                    "Descripcion":"La penicilina V potásica se usa para tratar algunas infecciones provocadas por bacterias",
+                    "Efectos-Secundarios":"sarpullido,urticaria,picazón"
+                },
+                "Recetas":[{
+                    "id":1001,
+                    "Fecha":"10/10/2010",
+                    "Motivo":"DOLOR EN EL PIE DERECHO",
+                    "Diagnostico":"LESION MENOR",
+                    "Medicamentos":[{
+                        "id":2601,
+                        "Nombre":"DICLOFENACO SODICO",
+                        "Tipo":"inyeccion",
+                        "Cantidad":1,
+                        "Tiempo":24,
+                        "Total":4,
+                        "Info":"se usan para aliviar el dolor leve a moderado",
+                        "Contraindicacciones":"diarrea, estreñimiento, flatulencia o distensión abdominal, dolor de cabeza ,mareos, zumbido en los oídos"
+                    },
+                    {
+                        "id":2004,
+                        "Nombre":"DEXAMETASONA",
+                        "Tipo":"inyeccion",
+                        "Cantidad":1,
+                        "Tiempo":24,
+                        "Total":4,
+                        "Info":" Alivia la inflamación (hinchazón, calor, enrojecimiento y dolor)",
+                        "Contraindicacciones":"malestar estomacal, irritación del estómago, vómitos, cefalea (dolor de cabeza), mareos, insomnio"
+                    },
+                    {
+                        "id":2023,
+                        "Nombre":"DICLOFENACO",
+                        "Tipo":"GEL",
+                        "Tiempo":24,
+                        "Total":1,
+                        "Info":"se usan para aliviar el dolor leve a moderado",
+                        "Contraindicacciones":"diarrea, estreñimiento, flatulencia o distensión abdominal, dolor de cabeza ,mareos, zumbido en los oídos"
+                    }],
+                    "estado":"reclamado"
+
+                },
+                {
+                    "id":1002,
+                    "Fecha":"10/10/2008",
+                    "Motivo":"MAREO REPENTINO",
+                    "Diagnostico":"HIPERTENSION",
+                    "Medicamentos":[{
+                        "id":2101,
+                        "Nombre":"hidroclorotiazida",
+                        "Tipo":"inyeccion",
+                        "Cantidad":1,
+                        "Tiempo":24,
+                        "Total":30,
+                        "Info":"La hidroclorotiazida se utiliza sola y en combinación con otros medicamentos para tratar la hipertensión arterial",
+                        "Contraindicacciones":"micción frecuente, diarrea, pérdida de apetito, dolor de cabeza, pérdida del cabello"
+                    }],
+                    "estado":"reclamado"
+                },
+                {
+                    "id":1003,
+                    "Fecha":"10/10/2023",
+                    "Motivo":"ARDOR EN EL ESTOMAGO",
+                    "Diagnostico":"REFLUJO",
+                    "Medicamentos":[{
+                        "id":2031,
+                        "Nombre":"OMEPRAZOL",
+                        "Tipo":"pastillas",
+                        "Cantidad":2,
+                        "Tiempo":8,
+                        "Total":10,
+                        "Info":"para tratar los síntomas de la enfermedad por reflujo gastroesofágico (ERGE)",
+                        "Contraindicacciones":"estreñimiento, gases, náusea"
+                    }],
+                    "estado":"No-reclamado"
+                }
+            
+            ]
+                    
+                
+            }
+          }
+          
+    ]
+}
